@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888  #클라우드 컨피그 서버 주소
+      name: user-service  # config-service 은 application.yml 파일을 불러온다  여기 말고 //#데이터베이스 정보를 로컬의 파일에서 읽어온다. 깃도 가능
+                          #지금은 user-service.yml파일을 읽어오도록 서정
+#  profiles:
+#    active: dev  # -dev 찾아간다.
+
+
